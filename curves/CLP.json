@@ -1,0 +1,42 @@
+{
+  "CLP.OIS": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "CLP",
+      "CALENDAR": "WEEKENDSONLY"
+    },
+    "INSTRUMENTS": {
+      "OISBULLET": {
+        "FIXEDFREQUENCY": "ONCE",
+        "FIXEDCONVENTION": "MODIFIEDFOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/360",
+        "INDEX": "CLP.OIS",
+        "QUOTES": [
+          "CLP.OIS.3M",
+          "CLP.OIS.6M",
+          "CLP.OIS.9M",
+          "CLP.OIS.12M",
+          "CLP.OIS.18M"
+        ]
+      },
+      "OIS": {
+        "FIXEDFREQUENCY": "SEMIANNUAL",
+        "FIXEDCONVENTION": "MODIFIEDFOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/360",
+        "INDEX": "CLP.OIS",
+        "QUOTES": [
+          "CLP.OIS.2Y",
+          "CLP.OIS.3Y",
+          "CLP.OIS.4Y",
+          "CLP.OIS.5Y",
+          "CLP.OIS.6Y",
+          "CLP.OIS.7Y",
+          "CLP.OIS.8Y",
+          "CLP.OIS.9Y",
+          "CLP.OIS.10Y",
+          "CLP.OIS.15Y",
+          "CLP.OIS.20Y"
+        ]
+      }
+    }
+  }
+}

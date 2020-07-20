@@ -1,0 +1,55 @@
+{
+  "ZAR.3M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "ZAR",
+      "CALENDAR": "SOUTHAFRICA"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "ZAR.3M",
+        "QUOTES": [
+          "ZAR.DEPOSIT.3M"
+        ]
+      },
+      "FRA": {
+        "INDEX": "ZAR.3M",
+        "QUOTES": [
+          "ZAR.FRA3M.1M",
+          "ZAR.FRA3M.2M",
+          "ZAR.FRA3M.3M",
+          "ZAR.FRA3M.4M",
+          "ZAR.FRA3M.5M",
+          "ZAR.FRA3M.6M",
+          "ZAR.FRA3M.7M",
+          "ZAR.FRA3M.8M",
+          "ZAR.FRA3M.9M",
+          "ZAR.FRA3M.12M",
+          "ZAR.FRA3M.15M",
+          "ZAR.FRA3M.18M",
+          "ZAR.FRA3M.21M"
+        ]
+      },
+      "SWAP": {
+        "FIXEDFREQUENCY": "ANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/ACT",
+        "INDEX": "ZAR.3M",
+        "QUOTES": [
+          "ZAR.SWAP3M.3Y",
+          "ZAR.SWAP3M.4Y",
+          "ZAR.SWAP3M.5Y",
+          "ZAR.SWAP3M.6Y",
+          "ZAR.SWAP3M.7Y",
+          "ZAR.SWAP3M.8Y",
+          "ZAR.SWAP3M.9Y",
+          "ZAR.SWAP3M.10Y",
+          "ZAR.SWAP3M.12Y",
+          "ZAR.SWAP3M.15Y",
+          "ZAR.SWAP3M.20Y",
+          "ZAR.SWAP3M.25Y",
+          "ZAR.SWAP3M.30Y"
+        ]
+      }
+    }
+  }
+}

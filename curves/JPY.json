@@ -1,0 +1,211 @@
+{
+  "JPY.OIS": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "JPY",
+      "CALENDAR": "JAPAN"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "JPY.OIS",
+        "QUOTES": [
+          "JPY.ON.1D"
+        ]
+      },
+      "OIS": {
+        "FIXEDFREQUENCY": "ANNUAL",
+        "FIXEDCONVENTION": "MODIFIEDFOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/360",
+        "INDEX": "JPY.OIS",
+        "QUOTES": [
+          "JPY.OIS.1W",
+          "JPY.OIS.2W",
+          "JPY.OIS.1M",
+          "JPY.OIS.2M",
+          "JPY.OIS.3M",
+          "JPY.OIS.4M",
+          "JPY.OIS.5M",
+          "JPY.OIS.6M",
+          "JPY.OIS.7M",
+          "JPY.OIS.8M",
+          "JPY.OIS.9M",
+          "JPY.OIS.10M",
+          "JPY.OIS.11M",
+          "JPY.OIS.12M",
+          "JPY.OIS.18M",
+          "JPY.OIS.2Y",
+          "JPY.OIS.3Y",
+          "JPY.OIS.4Y",
+          "JPY.OIS.5Y",
+          "JPY.OIS.6Y",
+          "JPY.OIS.7Y",
+          "JPY.OIS.8Y",
+          "JPY.OIS.9Y",
+          "JPY.OIS.10Y",
+          "JPY.OIS.11Y",
+          "JPY.OIS.12Y",
+          "JPY.OIS.15Y",
+          "JPY.OIS.20Y",
+          "JPY.OIS.25Y",
+          "JPY.OIS.30Y",
+          "JPY.OIS.35Y",
+          "JPY.OIS.40Y"
+        ]
+      }
+    }
+  },
+  "JPY.6M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "JPY",
+      "CALENDAR": "JAPAN"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "JPY.6M",
+        "QUOTES": [
+          "JPY.DEPOSIT.6M"
+        ]
+      },
+      "FRA": {
+        "INDEX": "JPY.6M",
+        "QUOTES": [
+          "JPY.FRA.1M",
+          "JPY.FRA.2M",
+          "JPY.FRA.3M",
+          "JPY.FRA.4M",
+          "JPY.FRA.5M",
+          "JPY.FRA.6M"
+        ]
+      },
+      "SWAP": {
+        "FIXEDFREQUENCY": "SEMIANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/365.FIXED",
+        "INDEX": "JPY.6M",
+        "QUOTES": [
+          "JPY.SWAP.18M",
+          "JPY.SWAP.2Y",
+          "JPY.SWAP.3Y",
+          "JPY.SWAP.4Y",
+          "JPY.SWAP.5Y",
+          "JPY.SWAP.6Y",
+          "JPY.SWAP.7Y",
+          "JPY.SWAP.8Y",
+          "JPY.SWAP.9Y",
+          "JPY.SWAP.10Y",
+          "JPY.SWAP.12Y",
+          "JPY.SWAP.15Y",
+          "JPY.SWAP.20Y",
+          "JPY.SWAP.25Y",
+          "JPY.SWAP.30Y",
+          "JPY.SWAP.35Y",
+          "JPY.SWAP.40Y"
+        ]
+      }
+    }
+  },
+  "JPY.3M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "JPY",
+      "CALENDAR": "JAPAN"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "JPY.3M",
+        "QUOTES": [
+          "JPY.DEPOSIT.3M"
+        ]
+      },
+      "FRA": {
+        "INDEX": "JPY.3M",
+        "QUOTES": [
+          "JPY.FRA3M.1M",
+          "JPY.FRA3M.2M",
+          "JPY.FRA3M.3M",
+          "JPY.FRA3M.4M",
+          "JPY.FRA3M.5M",
+          "JPY.FRA3M.6M",
+          "JPY.FRA3M.7M",
+          "JPY.FRA3M.8M",
+          "JPY.FRA3M.9M"
+        ]
+      },
+      "BASIS3M6M": {
+        "FIXEDFREQUENCY": "SEMIANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/365.FIXED",
+        "BASISSIGN": 1,
+        "INDEX": "JPY.6M",
+        "QUOTES": [
+          [
+            "JPY.SWAP.18M",
+            "JPY.BASIS3M6M.18M"
+          ],
+          [
+            "JPY.SWAP.2Y",
+            "JPY.BASIS3M6M.2Y"
+          ],
+          [
+            "JPY.SWAP.3Y",
+            "JPY.BASIS3M6M.3Y"
+          ],
+          [
+            "JPY.SWAP.4Y",
+            "JPY.BASIS3M6M.4Y"
+          ],
+          [
+            "JPY.SWAP.5Y",
+            "JPY.BASIS3M6M.5Y"
+          ],
+          [
+            "JPY.SWAP.6Y",
+            "JPY.BASIS3M6M.6Y"
+          ],
+          [
+            "JPY.SWAP.7Y",
+            "JPY.BASIS3M6M.7Y"
+          ],
+          [
+            "JPY.SWAP.8Y",
+            "JPY.BASIS3M6M.8Y"
+          ],
+          [
+            "JPY.SWAP.9Y",
+            "JPY.BASIS3M6M.9Y"
+          ],
+          [
+            "JPY.SWAP.10Y",
+            "JPY.BASIS3M6M.10Y"
+          ],
+          [
+            "JPY.SWAP.12Y",
+            "JPY.BASIS3M6M.12Y"
+          ],
+          [
+            "JPY.SWAP.15Y",
+            "JPY.BASIS3M6M.15Y"
+          ],
+          [
+            "JPY.SWAP.20Y",
+            "JPY.BASIS3M6M.20Y"
+          ],
+          [
+            "JPY.SWAP.25Y",
+            "JPY.BASIS3M6M.25Y"
+          ],
+          [
+            "JPY.SWAP.30Y",
+            "JPY.BASIS3M6M.30Y"
+          ],
+          [
+            "JPY.SWAP.35Y",
+            "JPY.BASIS3M6M.35Y"
+          ],
+          [
+            "JPY.SWAP.40Y",
+            "JPY.BASIS3M6M.40Y"
+          ]
+        ]
+      }
+    }
+  }
+}

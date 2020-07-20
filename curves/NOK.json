@@ -1,0 +1,136 @@
+{
+  "NOK.6M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "NOK",
+      "CALENDAR": "NORWAY"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "NOK.6M",
+        "QUOTES": [
+          "NOK.DEPOSIT.6M"
+        ]
+      },
+      "IMMFRA": {
+        "INDEX": "NOK.6M",
+        "QUOTES": [
+          "NOK.FRA.2",
+          "NOK.FRA.3",
+          "NOK.FRA.4",
+          "NOK.FRA.5"
+        ]
+      },
+      "SWAP": {
+        "FIXEDFREQUENCY": "ANNUAL",
+        "FIXEDCONVENTION": "MODIFIEDFOLLOWING",
+        "FIXEDDAYCOUNTER": "30/360",
+        "INDEX": "NOK.6M",
+        "QUOTES": [
+          "NOK.SWAP.2Y",
+          "NOK.SWAP.3Y",
+          "NOK.SWAP.4Y",
+          "NOK.SWAP.5Y",
+          "NOK.SWAP.6Y",
+          "NOK.SWAP.7Y",
+          "NOK.SWAP.8Y",
+          "NOK.SWAP.9Y",
+          "NOK.SWAP.10Y",
+          "NOK.SWAP.12Y",
+          "NOK.SWAP.15Y",
+          "NOK.SWAP.20Y",
+          "NOK.SWAP.25Y",
+          "NOK.SWAP.30Y"
+        ]
+      }
+    }
+  },
+  "NOK.3M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "NOK",
+      "CALENDAR": "NORWAY"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "NOK.3M",
+        "QUOTES": [
+          "NOK.DEPOSIT.3M"
+        ]
+      },
+      "IMMFRA": {
+        "INDEX": "NOK.3M",
+        "QUOTES": [
+          "NOK.FRA3M.1",
+          "NOK.FRA3M.2",
+          "NOK.FRA3M.3",
+          "NOK.FRA3M.4",
+          "NOK.FRA3M.5"
+        ]
+      },
+      "BASIS6M3M": {
+        "FIXEDFREQUENCY": "ANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "30/360",
+        "BASISSIGN": 1,
+        "INDEX": "NOK.6M",
+        "QUOTES": [
+          [
+            "NOK.SWAP.2Y",
+            "NOK.BASIS6M3M.2Y"
+          ],
+          [
+            "NOK.SWAP.3Y",
+            "NOK.BASIS6M3M.3Y"
+          ],
+          [
+            "NOK.SWAP.4Y",
+            "NOK.BASIS6M3M.4Y"
+          ],
+          [
+            "NOK.SWAP.5Y",
+            "NOK.BASIS6M3M.5Y"
+          ],
+          [
+            "NOK.SWAP.6Y",
+            "NOK.BASIS6M3M.6Y"
+          ],
+          [
+            "NOK.SWAP.7Y",
+            "NOK.BASIS6M3M.7Y"
+          ],
+          [
+            "NOK.SWAP.8Y",
+            "NOK.BASIS6M3M.8Y"
+          ],
+          [
+            "NOK.SWAP.9Y",
+            "NOK.BASIS6M3M.9Y"
+          ],
+          [
+            "NOK.SWAP.10Y",
+            "NOK.BASIS6M3M.10Y"
+          ],
+          [
+            "NOK.SWAP.12Y",
+            "NOK.BASIS6M3M.10Y"
+          ],
+          [
+            "NOK.SWAP.15Y",
+            "NOK.BASIS6M3M.10Y"
+          ],
+          [
+            "NOK.SWAP.20Y",
+            "NOK.BASIS6M3M.10Y"
+          ],
+          [
+            "NOK.SWAP.25Y",
+            "NOK.BASIS6M3M.10Y"
+          ],
+          [
+            "NOK.SWAP.30Y",
+            "NOK.BASIS6M3M.10Y"
+          ]
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "GBP.OIS": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "GBP",
+      "CALENDAR": "UNITEDKINGDOM"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "GBP.OIS",
+        "QUOTES": [
+          "GBP.ON.1D"
+        ]
+      },
+      "OIS": {
+        "FIXEDFREQUENCY": "ANNUAL",
+        "FIXEDCONVENTION": "MODIFIEDFOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/365",
+        "INDEX": "GBP.OIS",
+        "QUOTES": [
+          "GBP.OIS.1W",
+          "GBP.OIS.2W",
+          "GBP.OIS.1M",
+          "GBP.OIS.2M",
+          "GBP.OIS.3M",
+          "GBP.OIS.4M",
+          "GBP.OIS.5M",
+          "GBP.OIS.6M",
+          "GBP.OIS.7M",
+          "GBP.OIS.8M",
+          "GBP.OIS.9M",
+          "GBP.OIS.10M",
+          "GBP.OIS.11M",
+          "GBP.OIS.1Y",
+          "GBP.OIS.18M",
+          "GBP.OIS.2Y",
+          "GBP.OIS.3Y",
+          "GBP.OIS.4Y",
+          "GBP.OIS.5Y",
+          "GBP.OIS.6Y",
+          "GBP.OIS.7Y",
+          "GBP.OIS.8Y",
+          "GBP.OIS.9Y",
+          "GBP.OIS.10Y",
+          "GBP.OIS.12Y",
+          "GBP.OIS.15Y",
+          "GBP.OIS.20Y",
+          "GBP.OIS.25Y",
+          "GBP.OIS.30Y",
+          "GBP.OIS.40Y",
+          "GBP.OIS.50Y"
+        ]
+      }
+    }
+  },
+  "GBP.3M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "GBP",
+      "CALENDAR": "UNITEDKINGDOM"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "GBP.3M",
+        "QUOTES": [
+          "GBP.DEPOSIT.3M"
+        ]
+      },
+      "FUTURE": {
+        "INDEX": "GBP.3M",
+        "QUOTES": [
+          "GBP.FUTURE.1",
+          "GBP.FUTURE.2",
+          "GBP.FUTURE.3",
+          "GBP.FUTURE.4",
+          "GBP.FUTURE.5",
+          "GBP.FUTURE.6",
+          "GBP.FUTURE.7",
+          "GBP.FUTURE.8",
+          "GBP.FUTURE.9",
+          "GBP.FUTURE.10"
+        ]
+      },
+      "SWAP": {
+        "FIXEDFREQUENCY": "SEMIANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/365",
+        "INDEX": "GBP.3M",
+        "QUOTES": [
+          "GBP.SWAP3M.3Y",
+          "GBP.SWAP3M.4Y",
+          "GBP.SWAP3M.5Y",
+          "GBP.SWAP3M.6Y",
+          "GBP.SWAP3M.7Y",
+          "GBP.SWAP3M.8Y",
+          "GBP.SWAP3M.9Y",
+          "GBP.SWAP3M.10Y",
+          "GBP.SWAP3M.11Y",
+          "GBP.SWAP3M.12Y",
+          "GBP.SWAP3M.15Y",
+          "GBP.SWAP3M.20Y",
+          "GBP.SWAP3M.25Y",
+          "GBP.SWAP3M.30Y",
+          "GBP.SWAP3M.40Y"
+        ]
+      }
+    }
+  },
+  "GBP.6M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "GBP",
+      "CALENDAR": "UNITEDKINGDOM"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "GBP.6M",
+        "QUOTES": [
+          "GBP.DEPOSIT.6M"
+        ]
+      },
+      "FRA": {
+        "INDEX": "GBP.6M",
+        "QUOTES": [
+          "GBP.FRA.1M",
+          "GBP.FRA.2M",
+          "GBP.FRA.3M",
+          "GBP.FRA.4M",
+          "GBP.FRA.5M",
+          "GBP.FRA.6M",
+          "GBP.FRA.9M",
+          "GBP.FRA.12M"
+        ]
+      },
+      "SWAP": {
+        "FIXEDFREQUENCY": "SEMIANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/365",
+        "INDEX": "GBP.6M",
+        "QUOTES": [
+          "GBP.SWAP.2Y",
+          "GBP.SWAP.3Y",
+          "GBP.SWAP.4Y",
+          "GBP.SWAP.5Y",
+          "GBP.SWAP.6Y",
+          "GBP.SWAP.7Y",
+          "GBP.SWAP.8Y",
+          "GBP.SWAP.9Y",
+          "GBP.SWAP.10Y",
+          "GBP.SWAP.12Y",
+          "GBP.SWAP.15Y",
+          "GBP.SWAP.20Y",
+          "GBP.SWAP.25Y",
+          "GBP.SWAP.30Y",
+          "GBP.SWAP.40Y",
+          "GBP.SWAP.50Y"
+        ]
+      }
+    }
+  },
+  "GBP.1M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "GBP",
+      "CALENDAR": "UNITEDKINGDOM"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT.ON": {
+        "INDEX": "GBP.OIS",
+        "QUOTES": [
+          "GBP.ON.1D"
+        ]
+      },
+      "DEPOSIT": {
+        "DAYCOUNTER": "ACT/365",
+        "CONVENTION": "FOLLOWING",
+        "FIXINGDAYS": 2,
+        "QUOTES": [
+          "GBP.DEPOSIT.1W",
+          "GBP.DEPOSIT.1M"
+        ]
+      },
+      "SWAP": {
+        "FIXEDFREQUENCY": "SEMIANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/365.FIXED",
+        "INDEX": "GBP.1M",
+        "QUOTES": [
+          "GBP.SWAP1M.2M",
+          "GBP.SWAP1M.3M",
+          "GBP.SWAP1M.6M",
+          "GBP.SWAP1M.9M"
+        ]
+      },
+      "BASIS3M1M": {
+        "FIXEDFREQUENCY": "QUARTERLY",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/365",
+        "BASISSIGN": 1,
+        "INDEX": "GBP.3M",
+        "QUOTES": [
+          [
+            "GBP.SWAP3M.1Y",
+            "GBP.BASIS3M1M.1Y"
+          ],
+          [
+            "GBP.SWAP3M.2Y",
+            "GBP.BASIS3M1M.2Y"
+          ],
+          [
+            "GBP.SWAP3M.3Y",
+            "GBP.BASIS3M1M.3Y"
+          ],
+          [
+            "GBP.SWAP3M.4Y",
+            "GBP.BASIS3M1M.4Y"
+          ],
+          [
+            "GBP.SWAP3M.5Y",
+            "GBP.BASIS3M1M.5Y"
+          ],
+          [
+            "GBP.SWAP3M.6Y",
+            "GBP.BASIS3M1M.6Y"
+          ],
+          [
+            "GBP.SWAP3M.7Y",
+            "GBP.BASIS3M1M.7Y"
+          ],
+          [
+            "GBP.SWAP3M.8Y",
+            "GBP.BASIS3M1M.8Y"
+          ],
+          [
+            "GBP.SWAP3M.9Y",
+            "GBP.BASIS3M1M.9Y"
+          ],
+          [
+            "GBP.SWAP3M.10Y",
+            "GBP.BASIS3M1M.10Y"
+          ],
+          [
+            "GBP.SWAP3M.12Y",
+            "GBP.BASIS3M1M.12Y"
+          ],
+          [
+            "GBP.SWAP3M.15Y",
+            "GBP.BASIS3M1M.15Y"
+          ],
+          [
+            "GBP.SWAP3M.20Y",
+            "GBP.BASIS3M1M.20Y"
+          ],
+          [
+            "GBP.SWAP3M.25Y",
+            "GBP.BASIS3M1M.25Y"
+          ],
+          [
+            "GBP.SWAP3M.30Y",
+            "GBP.BASIS3M1M.30Y"
+          ]
+        ]
+      }
+    }
+  }
+}

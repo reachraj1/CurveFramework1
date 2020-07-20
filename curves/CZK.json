@@ -1,0 +1,139 @@
+{
+  "CZK.6M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "CZK",
+      "CALENDAR": "CZECHREPUBLIC"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "CZK.6M",
+        "QUOTES": [
+          "CZK.DEPOSIT.6M"
+        ]
+      },
+      "FRA": {
+        "INDEX": "CZK.6M",
+        "QUOTES": [
+          "CZK.FRA.1M",
+          "CZK.FRA.2M",
+          "CZK.FRA.3M",
+          "CZK.FRA.4M",
+          "CZK.FRA.5M",
+          "CZK.FRA.6M",
+          "CZK.FRA.12M"
+        ]
+      },
+      "SWAP": {
+        "FIXEDFREQUENCY": "ANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/360",
+        "INDEX": "CZK.6M",
+        "QUOTES": [
+          "CZK.SWAP.2Y",
+          "CZK.SWAP.3Y",
+          "CZK.SWAP.4Y",
+          "CZK.SWAP.5Y",
+          "CZK.SWAP.6Y",
+          "CZK.SWAP.7Y",
+          "CZK.SWAP.8Y",
+          "CZK.SWAP.9Y",
+          "CZK.SWAP.10Y",
+          "CZK.SWAP.12Y",
+          "CZK.SWAP.15Y",
+          "CZK.SWAP.20Y",
+          "CZK.SWAP.30Y"
+        ]
+      }
+    }
+  },
+  "CZK.3M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "CZK",
+      "CALENDAR": "CZECHREPUBLIC"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "CZK.3M",
+        "QUOTES": [
+          "CZK.DEPOSIT.3M"
+        ]
+      },
+      "FRA": {
+        "INDEX": "CZK.3M",
+        "QUOTES": [
+          "CZK.FRA3M.1M",
+          "CZK.FRA3M.2M",
+          "CZK.FRA3M.3M",
+          "CZK.FRA3M.4M",
+          "CZK.FRA3M.5M",
+          "CZK.FRA3M.6M",
+          "CZK.FRA3M.7M",
+          "CZK.FRA3M.8M",
+          "CZK.FRA3M.9M",
+          "CZK.FRA3M.12M"
+        ]
+      },
+      "BASIS6M3M": {
+        "FIXEDFREQUENCY": "ANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/360",
+        "BASISSIGN": -1,
+        "INDEX": "CZK.6M",
+        "QUOTES": [
+          [
+            "CZK.SWAP.2Y",
+            "CZK.BASIS6M3M.2Y"
+          ],
+          [
+            "CZK.SWAP.3Y",
+            "CZK.BASIS6M3M.3Y"
+          ],
+          [
+            "CZK.SWAP.4Y",
+            "CZK.BASIS6M3M.4Y"
+          ],
+          [
+            "CZK.SWAP.5Y",
+            "CZK.BASIS6M3M.5Y"
+          ],
+          [
+            "CZK.SWAP.6Y",
+            "CZK.BASIS6M3M.6Y"
+          ],
+          [
+            "CZK.SWAP.7Y",
+            "CZK.BASIS6M3M.7Y"
+          ],
+          [
+            "CZK.SWAP.8Y",
+            "CZK.BASIS6M3M.8Y"
+          ],
+          [
+            "CZK.SWAP.9Y",
+            "CZK.BASIS6M3M.9Y"
+          ],
+          [
+            "CZK.SWAP.10Y",
+            "CZK.BASIS6M3M.10Y"
+          ],
+          [
+            "CZK.SWAP.12Y",
+            "CZK.BASIS6M3M.10Y"
+          ],
+          [
+            "CZK.SWAP.15Y",
+            "CZK.BASIS6M3M.10Y"
+          ],
+          [
+            "CZK.SWAP.20Y",
+            "CZK.BASIS6M3M.10Y"
+          ],
+          [
+            "CZK.SWAP.30Y",
+            "CZK.BASIS6M3M.10Y"
+          ]
+        ]
+      }
+    }
+  }
+}

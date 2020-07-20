@@ -1,0 +1,310 @@
+{
+  "EUR.OIS": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "EUR",
+      "CALENDAR": "TARGET"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "EUR.OIS",
+        "QUOTES": [
+          "EUR.ON.1D"
+        ]
+      },
+      "OIS": {
+        "FIXEDFREQUENCY": "ANNUAL",
+        "FIXEDCONVENTION": "MODIFIEDFOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/360",
+        "INDEX": "EUR.OIS",
+        "QUOTES": [
+          "EUR.OIS.1W",
+          "EUR.OIS.2W",
+          "EUR.OIS.1M",
+          "EUR.OIS.2M",
+          "EUR.OIS.3M",
+          "EUR.OIS.4M",
+          "EUR.OIS.5M",
+          "EUR.OIS.6M",
+          "EUR.OIS.7M",
+          "EUR.OIS.8M",
+          "EUR.OIS.9M",
+          "EUR.OIS.10M",
+          "EUR.OIS.11M",
+          "EUR.OIS.12M",
+          "EUR.OIS.18M",
+          "EUR.OIS.2Y",
+          "EUR.OIS.30M",
+          "EUR.OIS.3Y",
+          "EUR.OIS.4Y",
+          "EUR.OIS.5Y",
+          "EUR.OIS.6Y",
+          "EUR.OIS.7Y",
+          "EUR.OIS.8Y",
+          "EUR.OIS.9Y",
+          "EUR.OIS.10Y",
+          "EUR.OIS.11Y",
+          "EUR.OIS.12Y",
+          "EUR.OIS.15Y",
+          "EUR.OIS.20Y",
+          "EUR.OIS.25Y",
+          "EUR.OIS.30Y",
+          "EUR.OIS.35Y",
+          "EUR.OIS.40Y"
+        ]
+      }
+    }
+  },
+  "EUR.6M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "EUR",
+      "CALENDAR": "TARGET"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "EUR.6M",
+        "QUOTES": [
+          "EUR.DEPOSIT.6M"
+        ]
+      },
+      "FRA": {
+        "INDEX": "EUR.6M",
+        "QUOTES": [
+          "EUR.FRA.1M",
+          "EUR.FRA.2M",
+          "EUR.FRA.3M",
+          "EUR.FRA.4M",
+          "EUR.FRA.5M",
+          "EUR.FRA.6M",
+          "EUR.FRA.7M",
+          "EUR.FRA.8M",
+          "EUR.FRA.9M",
+          "EUR.FRA.10M",
+          "EUR.FRA.11M",
+          "EUR.FRA.12M"
+        ]
+      },
+      "SWAP": {
+        "FIXEDFREQUENCY": "ANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "30/360",
+        "INDEX": "EUR.6M",
+        "QUOTES": [
+          "EUR.SWAP.2Y",
+          "EUR.SWAP.3Y",
+          "EUR.SWAP.4Y",
+          "EUR.SWAP.5Y",
+          "EUR.SWAP.6Y",
+          "EUR.SWAP.7Y",
+          "EUR.SWAP.8Y",
+          "EUR.SWAP.9Y",
+          "EUR.SWAP.10Y",
+          "EUR.SWAP.11Y",
+          "EUR.SWAP.12Y",
+          "EUR.SWAP.15Y",
+          "EUR.SWAP.20Y",
+          "EUR.SWAP.25Y",
+          "EUR.SWAP.30Y",
+          "EUR.SWAP.35Y",
+          "EUR.SWAP.40Y",
+          "EUR.SWAP.45Y",
+          "EUR.SWAP.50Y"
+        ]
+      }
+    }
+  },
+  "EUR.3M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "EUR",
+      "CALENDAR": "TARGET"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "EUR.3M",
+        "QUOTES": [
+          "EUR.DEPOSIT.3M"
+        ]
+      },
+      "FUTURE": {
+        "INDEX": "EUR.3M",
+        "QUOTES": [
+          "EUR.FUTURE.1",
+          "EUR.FUTURE.2",
+          "EUR.FUTURE.3",
+          "EUR.FUTURE.4",
+          "EUR.FUTURE.5",
+          "EUR.FUTURE.6",
+          "EUR.FUTURE.7",
+          "EUR.FUTURE.8",
+          "EUR.FUTURE.9",
+          "EUR.FUTURE.10",
+          "EUR.FUTURE.11",
+          "EUR.FUTURE.12"
+        ]
+      },
+      "SWAP": {
+        "FIXEDFREQUENCY": "ANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "30/360",
+        "INDEX": "EUR.3M",
+        "QUOTES": [
+          "EUR.SWAP3M.3Y",
+          "EUR.SWAP3M.4Y",
+          "EUR.SWAP3M.5Y",
+          "EUR.SWAP3M.6Y",
+          "EUR.SWAP3M.7Y",
+          "EUR.SWAP3M.8Y",
+          "EUR.SWAP3M.9Y",
+          "EUR.SWAP3M.10Y",
+          "EUR.SWAP3M.11Y",
+          "EUR.SWAP3M.12Y",
+          "EUR.SWAP3M.15Y",
+          "EUR.SWAP3M.20Y",
+          "EUR.SWAP3M.25Y",
+          "EUR.SWAP3M.30Y",
+          "EUR.SWAP3M.35Y",
+          "EUR.SWAP3M.40Y",
+          "EUR.SWAP3M.50Y"
+        ]
+      }
+    }
+  },
+  "EUR.1M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "EUR",
+      "CALENDAR": "TARGET"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "EUR.1M",
+        "QUOTES": [
+          "EUR.DEPOSIT.1M"
+        ]
+      },
+      "SWAP": {
+        "FIXEDFREQUENCY": "ANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "30/360",
+        "INDEX": "EUR.1M",
+        "QUOTES": [
+          "EUR.SWAP1M.2M",
+          "EUR.SWAP1M.3M",
+          "EUR.SWAP1M.4M",
+          "EUR.SWAP1M.5M",
+          "EUR.SWAP1M.6M",
+          "EUR.SWAP1M.7M",
+          "EUR.SWAP1M.8M",
+          "EUR.SWAP1M.9M",
+          "EUR.SWAP1M.10M",
+          "EUR.SWAP1M.11M",
+          "EUR.SWAP1M.1Y",
+          "EUR.SWAP1M.15M",
+          "EUR.SWAP1M.18M",
+          "EUR.SWAP1M.21M",
+          "EUR.SWAP1M.2Y",
+          "EUR.SWAP1M.3Y",
+          "EUR.SWAP1M.4Y",
+          "EUR.SWAP1M.5Y",
+          "EUR.SWAP1M.6Y",
+          "EUR.SWAP1M.7Y",
+          "EUR.SWAP1M.8Y",
+          "EUR.SWAP1M.9Y",
+          "EUR.SWAP1M.10Y",
+          "EUR.SWAP1M.12Y",
+          "EUR.SWAP1M.15Y",
+          "EUR.SWAP1M.20Y",
+          "EUR.SWAP1M.25Y",
+          "EUR.SWAP1M.30Y"
+        ]
+      }
+    }
+  },
+  "EUR.12M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "EUR",
+      "CALENDAR": "TARGET"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "DAYCOUNTER": "ACT/360",
+        "CONVENTION": "FOLLOWING",
+        "FIXINGDAYS": 2,
+        "QUOTES": [
+          "EUR.DEPOSIT.1W",
+          "EUR.DEPOSIT.1M",
+          "EUR.DEPOSIT.3M",
+          "EUR.DEPOSIT.6M",
+          "EUR.DEPOSIT.12M"
+        ]
+      },
+      "BASIS6M12M": {
+        "FIXEDFREQUENCY": "ANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "30/360",
+        "BASISSIGN": 1,
+        "INDEX": "EUR.6M",
+        "QUOTES": [
+          [
+            "EUR.SWAP.2Y",
+            "EUR.BASIS6M12M.2Y"
+          ],
+          [
+            "EUR.SWAP.3Y",
+            "EUR.BASIS6M12M.3Y"
+          ],
+          [
+            "EUR.SWAP.4Y",
+            "EUR.BASIS6M12M.4Y"
+          ],
+          [
+            "EUR.SWAP.5Y",
+            "EUR.BASIS6M12M.5Y"
+          ],
+          [
+            "EUR.SWAP.6Y",
+            "EUR.BASIS6M12M.6Y"
+          ],
+          [
+            "EUR.SWAP.7Y",
+            "EUR.BASIS6M12M.7Y"
+          ],
+          [
+            "EUR.SWAP.8Y",
+            "EUR.BASIS6M12M.8Y"
+          ],
+          [
+            "EUR.SWAP.9Y",
+            "EUR.BASIS6M12M.9Y"
+          ],
+          [
+            "EUR.SWAP.10Y",
+            "EUR.BASIS6M12M.10Y"
+          ],
+          [
+            "EUR.SWAP.11Y",
+            "EUR.BASIS6M12M.11Y"
+          ],
+          [
+            "EUR.SWAP.12Y",
+            "EUR.BASIS6M12M.12Y"
+          ],
+          [
+            "EUR.SWAP.15Y",
+            "EUR.BASIS6M12M.15Y"
+          ],
+          [
+            "EUR.SWAP.20Y",
+            "EUR.BASIS6M12M.20Y"
+          ],
+          [
+            "EUR.SWAP.25Y",
+            "EUR.BASIS6M12M.25Y"
+          ],
+          [
+            "EUR.SWAP.30Y",
+            "EUR.BASIS6M12M.30Y"
+          ]
+        ]
+      }
+    }
+  }
+}

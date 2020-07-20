@@ -1,0 +1,335 @@
+{
+  "AUD.OIS": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "AUD",
+      "CALENDAR": "AUSTRALIA"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "AUD.OIS",
+        "QUOTES": [
+          "AUD.ON.1D"
+        ]
+      },
+      "OIS": {
+        "FIXEDFREQUENCY": "ANNUAL",
+        "FIXEDCONVENTION": "MODIFIEDFOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/360",
+        "INDEX": "AUD.OIS",
+        "QUOTES": [
+          "AUD.OIS.1W",
+          "AUD.OIS.1M",
+          "AUD.OIS.2M",
+          "AUD.OIS.3M",
+          "AUD.OIS.4M",
+          "AUD.OIS.5M",
+          "AUD.OIS.6M",
+          "AUD.OIS.9M",
+          "AUD.OIS.1Y",
+          "AUD.OIS.18M",
+          "AUD.OIS.2Y",
+          "AUD.OIS.3Y",
+          "AUD.OIS.4Y",
+          "AUD.OIS.5Y",
+          "AUD.OIS.6Y",
+          "AUD.OIS.7Y",
+          "AUD.OIS.8Y",
+          "AUD.OIS.9Y",
+          "AUD.OIS.10Y",
+          "AUD.OIS.12Y",
+          "AUD.OIS.15Y",
+          "AUD.OIS.20Y",
+          "AUD.OIS.25Y",
+          "AUD.OIS.30Y"
+        ]
+      }
+    }
+  },
+  "AUD.6M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "AUD",
+      "CALENDAR": "AUSTRALIA"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "AUD.6M",
+        "QUOTES": [
+          "AUD.DEPOSIT.6M"
+        ]
+      },
+      "BASIS3M6M": {
+        "FIXEDFREQUENCY": "QUARTERLY",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/365",
+        "BASISSIGN": -1,
+        "INDEX": "AUD.3M",
+        "QUOTES": [
+          [
+            "AUD.SWAP3M.1Y",
+            "AUD.BASIS3M6M.1Y"
+          ],
+          [
+            "AUD.SWAP3M.2Y",
+            "AUD.BASIS3M6M.2Y"
+          ],
+          [
+            "AUD.SWAP3M.3Y",
+            "AUD.BASIS3M6M.3Y"
+          ]
+        ]
+      },
+      "SWAP": {
+        "FIXEDFREQUENCY": "SEMIANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/365",
+        "INDEX": "AUD.6M",
+        "QUOTES": [
+          "AUD.SWAP.4Y",
+          "AUD.SWAP.5Y",
+          "AUD.SWAP.6Y",
+          "AUD.SWAP.7Y",
+          "AUD.SWAP.8Y",
+          "AUD.SWAP.9Y",
+          "AUD.SWAP.10Y",
+          "AUD.SWAP.12Y",
+          "AUD.SWAP.15Y",
+          "AUD.SWAP.20Y",
+          "AUD.SWAP.25Y",
+          "AUD.SWAP.30Y"
+        ]
+      }
+    }
+  },
+  "AUD.3M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "AUD",
+      "CALENDAR": "AUSTRALIA"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "AUD.3M",
+        "QUOTES": [
+          "AUD.DEPOSIT.3M"
+        ]
+      },
+      "FUTURE": {
+        "INDEX": "AUD.3M",
+        "QUOTES": [
+          "AUD.FUTURE.1",
+          "AUD.FUTURE.2",
+          "AUD.FUTURE.3",
+          "AUD.FUTURE.4",
+          "AUD.FUTURE.5",
+          "AUD.FUTURE.6"
+        ]
+      },
+      "SWAP": {
+        "FIXEDFREQUENCY": "SEMIANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/365",
+        "INDEX": "AUD.3M",
+        "QUOTES": [
+          "AUD.SWAP3M.2Y",
+          "AUD.SWAP3M.3Y"
+        ]
+      },
+      "BASIS6M3M": {
+        "FIXEDFREQUENCY": "SEMIANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/365",
+        "BASISSIGN": -1,
+        "INDEX": "AUD.6M",
+        "QUOTES": [
+          [
+            "AUD.SWAP.4Y",
+            "AUD.BASIS6M3M.4Y"
+          ],
+          [
+            "AUD.SWAP.5Y",
+            "AUD.BASIS6M3M.5Y"
+          ],
+          [
+            "AUD.SWAP.6Y",
+            "AUD.BASIS6M3M.6Y"
+          ],
+          [
+            "AUD.SWAP.7Y",
+            "AUD.BASIS6M3M.7Y"
+          ],
+          [
+            "AUD.SWAP.8Y",
+            "AUD.BASIS6M3M.8Y"
+          ],
+          [
+            "AUD.SWAP.9Y",
+            "AUD.BASIS6M3M.9Y"
+          ],
+          [
+            "AUD.SWAP.10Y",
+            "AUD.BASIS6M3M.10Y"
+          ],
+          [
+            "AUD.SWAP.12Y",
+            "AUD.BASIS6M3M.12Y"
+          ],
+          [
+            "AUD.SWAP.15Y",
+            "AUD.BASIS6M3M.15Y"
+          ],
+          [
+            "AUD.SWAP.20Y",
+            "AUD.BASIS6M3M.20Y"
+          ],
+          [
+            "AUD.SWAP.25Y",
+            "AUD.BASIS6M3M.25Y"
+          ],
+          [
+            "AUD.SWAP.30Y",
+            "AUD.BASIS6M3M.30Y"
+          ]
+        ]
+      }
+    }
+  },
+  "AUD.1M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "AUD",
+      "CALENDAR": "AUSTRALIA"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "AUD.OIS",
+        "QUOTES": [
+          "AUD.ON.1D"
+        ]
+      },
+      "BASIS1M3M": {
+        "FIXEDFREQUENCY": "QUARTERLY",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/365",
+        "BASISSIGN": 1,
+        "INDEX": "AUD.3M",
+        "QUOTES": [
+          [
+            "AUD.SWAP3M.3M",
+            "AUD.BASIS1M3M.3M"
+          ],
+          [
+            "AUD.SWAP3M.6M",
+            "AUD.BASIS1M3M.6M"
+          ],
+          [
+            "AUD.SWAP3M.9M",
+            "AUD.BASIS1M3M.9M"
+          ],
+          [
+            "AUD.SWAP3M.1Y",
+            "AUD.BASIS1M3M.1Y"
+          ],
+          [
+            "AUD.SWAP3M.2Y",
+            "AUD.BASIS1M3M.2Y"
+          ],
+          [
+            "AUD.SWAP3M.3Y",
+            "AUD.BASIS1M3M.3Y"
+          ]
+        ]
+      },
+      "BASIS1M6M": {
+        "FIXEDFREQUENCY": "SEMIANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/365",
+        "BASISSIGN": 1,
+        "INDEX": "AUD.6M",
+        "QUOTES": [
+          [
+            "AUD.SWAP.4Y",
+            [
+              "AUD.BASIS1M3M.4Y",
+              "AUD.BASIS6M3M.4Y"
+            ]
+          ],
+          [
+            "AUD.SWAP.5Y",
+            [
+              "AUD.BASIS1M3M.5Y",
+              "AUD.BASIS6M3M.5Y"
+            ]
+          ],
+          [
+            "AUD.SWAP.6Y",
+            [
+              "AUD.BASIS1M3M.6Y",
+              "AUD.BASIS6M3M.6Y"
+            ]
+          ],
+          [
+            "AUD.SWAP.7Y",
+            [
+              "AUD.BASIS1M3M.7Y",
+              "AUD.BASIS6M3M.7Y"
+            ]
+          ],
+          [
+            "AUD.SWAP.8Y",
+            [
+              "AUD.BASIS1M3M.8Y",
+              "AUD.BASIS6M3M.8Y"
+            ]
+          ],
+          [
+            "AUD.SWAP.9Y",
+            [
+              "AUD.BASIS1M3M.9Y",
+              "AUD.BASIS6M3M.9Y"
+            ]
+          ],
+          [
+            "AUD.SWAP.10Y",
+            [
+              "AUD.BASIS1M3M.10Y",
+              "AUD.BASIS6M3M.10Y"
+            ]
+          ],
+          [
+            "AUD.SWAP.12Y",
+            [
+              "AUD.BASIS1M3M.12Y",
+              "AUD.BASIS6M3M.12Y"
+            ]
+          ],
+          [
+            "AUD.SWAP.15Y",
+            [
+              "AUD.BASIS1M3M.15Y",
+              "AUD.BASIS6M3M.15Y"
+            ]
+          ],
+          [
+            "AUD.SWAP.20Y",
+            [
+              "AUD.BASIS1M3M.20Y",
+              "AUD.BASIS6M3M.20Y"
+            ]
+          ],
+          [
+            "AUD.SWAP.25Y",
+            [
+              "AUD.BASIS1M3M.25Y",
+              "AUD.BASIS6M3M.25Y"
+            ]
+          ],
+          [
+            "AUD.SWAP.30Y",
+            [
+              "AUD.BASIS1M3M.30Y",
+              "AUD.BASIS6M3M.30Y"
+            ]
+          ]
+        ]
+      }
+    }
+  }
+}

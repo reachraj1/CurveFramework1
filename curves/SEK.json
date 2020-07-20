@@ -1,0 +1,89 @@
+{
+  "SEK.OIS": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "SEK",
+      "CALENDAR": "SWEDEN"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "SEK.OIS",
+        "QUOTES": [
+          "SEK.ON.1D"
+        ]
+      },
+      "OIS": {
+        "FIXEDFREQUENCY": "ANNUAL",
+        "FIXEDCONVENTION": "MODIFIEDFOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/360",
+        "INDEX": "SEK.OIS",
+        "QUOTES": [
+          "SEK.OIS.1M",
+          "SEK.OIS.2M",
+          "SEK.OIS.3M",
+          "SEK.OIS.6M",
+          "SEK.OIS.9M",
+          "SEK.OIS.1Y",
+          "SEK.OIS.18M",
+          "SEK.OIS.2Y",
+          "SEK.OIS.3Y",
+          "SEK.OIS.4Y",
+          "SEK.OIS.5Y",
+          "SEK.OIS.6Y",
+          "SEK.OIS.7Y",
+          "SEK.OIS.8Y",
+          "SEK.OIS.9Y",
+          "SEK.OIS.10Y",
+          "SEK.OIS.12Y",
+          "SEK.OIS.15Y",
+          "SEK.OIS.20Y",
+          "SEK.OIS.25Y",
+          "SEK.OIS.30Y"
+        ]
+      }
+    }
+  },
+  "SEK.3M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "SEK",
+      "CALENDAR": "SWEDEN"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "SEK.3M",
+        "QUOTES": [
+          "SEK.DEPOSIT.3M"
+        ]
+      },
+      "IMMFRA": {
+        "INDEX": "SEK.3M",
+        "QUOTES": [
+          "SEK.IMMFRA.1",
+          "SEK.IMMFRA.2",
+          "SEK.IMMFRA.3",
+          "SEK.IMMFRA.4",
+          "SEK.IMMFRA.5"
+        ]
+      },
+      "SWAP": {
+        "FIXEDFREQUENCY": "ANNUAL",
+        "FIXEDCONVENTION": "MODIFIEDFOLLOWING",
+        "FIXEDDAYCOUNTER": "30/360",
+        "INDEX": "SEK.3M",
+        "QUOTES": [
+          "SEK.SWAP3M.2Y",
+          "SEK.SWAP3M.3Y",
+          "SEK.SWAP3M.4Y",
+          "SEK.SWAP3M.5Y",
+          "SEK.SWAP3M.6Y",
+          "SEK.SWAP3M.7Y",
+          "SEK.SWAP3M.8Y",
+          "SEK.SWAP3M.9Y",
+          "SEK.SWAP3M.10Y",
+          "SEK.SWAP3M.15Y",
+          "SEK.SWAP3M.20Y",
+          "SEK.SWAP3M.30Y"
+        ]
+      }
+    }
+  }
+}

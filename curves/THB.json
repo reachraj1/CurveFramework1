@@ -1,0 +1,40 @@
+{
+  "THB.3M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "THB",
+      "CALENDAR": "THAILAND"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "DAYCOUNTER": "ACT/365",
+        "CONVENTION": "FOLLOWING",
+        "FIXINGDAYS": 2,
+        "QUOTES": [
+          "THB.DEPOSIT.1W",
+          "THB.DEPOSIT.1M",
+          "THB.DEPOSIT.2M",
+          "THB.DEPOSIT.3M",
+          "THB.DEPOSIT.6M"
+        ]
+      },
+      "SWAP": {
+        "FIXEDFREQUENCY": "SEMIANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/365",
+        "INDEX": "THB.6M",
+        "QUOTES": [
+          "THB.SWAP.1Y",
+          "THB.SWAP.2Y",
+          "THB.SWAP.3Y",
+          "THB.SWAP.4Y",
+          "THB.SWAP.5Y",
+          "THB.SWAP.7Y",
+          "THB.SWAP.10Y",
+          "THB.SWAP.12Y",
+          "THB.SWAP.15Y",
+          "THB.SWAP.20Y"
+        ]
+      }
+    }
+  }
+}

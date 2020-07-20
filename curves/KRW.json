@@ -1,0 +1,39 @@
+{
+  "KRW.3M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "KRW",
+      "CALENDAR": "SOUTHKOREA"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "DAYCOUNTER": "ACT/365.FIXED",
+        "CONVENTION": "FOLLOWING",
+        "FIXINGDAYS": 2,
+        "QUOTES": [
+          "KRW.DEPOSIT.1D",
+          "KRW.DEPOSIT.3M"
+        ]
+      },
+      "SWAP": {
+        "FIXEDFREQUENCY": "QUARTERLY",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/365.FIXED",
+        "INDEX": "KRW.3M",
+        "QUOTES": [
+          "KRW.SWAP.6M",
+          "KRW.SWAP.9M",
+          "KRW.SWAP.1Y",
+          "KRW.SWAP.2Y",
+          "KRW.SWAP.3Y",
+          "KRW.SWAP.4Y",
+          "KRW.SWAP.5Y",
+          "KRW.SWAP.7Y",
+          "KRW.SWAP.10Y",
+          "KRW.SWAP.12Y",
+          "KRW.SWAP.15Y",
+          "KRW.SWAP.20Y"
+        ]
+      }
+    }
+  }
+}

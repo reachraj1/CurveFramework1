@@ -1,0 +1,149 @@
+{
+  "CHF.OIS": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "CHF",
+      "CALENDAR": "SWITZERLAND"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "CHF.OIS",
+        "QUOTES": [
+          "CHF.ON.1D"
+        ]
+      },
+      "OIS": {
+        "FIXEDFREQUENCY": "ANNUAL",
+        "FIXEDCONVENTION": "MODIFIEDFOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/360",
+        "INDEX": "CHF.OIS",
+        "QUOTES": [
+          "CHF.OIS.1W",
+          "CHF.OIS.2W",
+          "CHF.OIS.1M",
+          "CHF.OIS.2M",
+          "CHF.OIS.3M",
+          "CHF.OIS.6M",
+          "CHF.OIS.9M",
+          "CHF.OIS.10M",
+          "CHF.OIS.12M",
+          "CHF.OIS.18M",
+          "CHF.OIS.2Y",
+          "CHF.OIS.3Y",
+          "CHF.OIS.4Y",
+          "CHF.OIS.5Y",
+          "CHF.OIS.6Y",
+          "CHF.OIS.7Y",
+          "CHF.OIS.8Y",
+          "CHF.OIS.9Y",
+          "CHF.OIS.10Y",
+          "CHF.OIS.12Y",
+          "CHF.OIS.15Y",
+          "CHF.OIS.20Y",
+          "CHF.OIS.25Y",
+          "CHF.OIS.30Y"
+        ]
+      }
+    }
+  },
+  "CHF.6M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "CHF",
+      "CALENDAR": "SWITZERLAND"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "CHF.6M",
+        "QUOTES": [
+          "CHF.DEPOSIT.6M"
+        ]
+      },
+      "FRA": {
+        "INDEX": "CHF.6M",
+        "QUOTES": [
+          "CHF.FRA.1M",
+          "CHF.FRA.2M",
+          "CHF.FRA.3M",
+          "CHF.FRA.4M",
+          "CHF.FRA.5M",
+          "CHF.FRA.6M",
+          "CHF.FRA.9M"
+        ]
+      },
+      "SWAP": {
+        "FIXEDFREQUENCY": "ANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "30/360",
+        "INDEX": "CHF.6M",
+        "QUOTES": [
+          "CHF.SWAP.2Y",
+          "CHF.SWAP.3Y",
+          "CHF.SWAP.4Y",
+          "CHF.SWAP.5Y",
+          "CHF.SWAP.6Y",
+          "CHF.SWAP.7Y",
+          "CHF.SWAP.8Y",
+          "CHF.SWAP.9Y",
+          "CHF.SWAP.10Y",
+          "CHF.SWAP.12Y",
+          "CHF.SWAP.15Y",
+          "CHF.SWAP.20Y",
+          "CHF.SWAP.25Y",
+          "CHF.SWAP.30Y"
+        ]
+      }
+    }
+  },
+  "CHF.3M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "CHF",
+      "CALENDAR": "SWITZERLAND"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "DAYCOUNTER": "ACT/360",
+        "CONVENTION": "FOLLOWING",
+        "FIXINGDAYS": 2,
+        "QUOTES": [
+          "CHF.DEPOSIT.1W",
+          "CHF.DEPOSIT.1M",
+          "CHF.DEPOSIT.2M",
+          "CHF.DEPOSIT.3M"
+        ]
+      },
+      "FUTURE": {
+        "INDEX": "CHF.3M",
+        "QUOTES": [
+          "CHF.FUTURE.1",
+          "CHF.FUTURE.2",
+          "CHF.FUTURE.3",
+          "CHF.FUTURE.4",
+          "CHF.FUTURE.5",
+          "CHF.FUTURE.6"
+        ]
+      },
+      "SWAP": {
+        "FIXEDFREQUENCY": "ANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "30/360",
+        "INDEX": "CHF.3M",
+        "QUOTES": [
+          "CHF.SWAP3M.2Y",
+          "CHF.SWAP3M.3Y",
+          "CHF.SWAP3M.4Y",
+          "CHF.SWAP3M.5Y",
+          "CHF.SWAP3M.6Y",
+          "CHF.SWAP3M.7Y",
+          "CHF.SWAP3M.8Y",
+          "CHF.SWAP3M.9Y",
+          "CHF.SWAP3M.10Y",
+          "CHF.SWAP3M.11Y",
+          "CHF.SWAP3M.12Y",
+          "CHF.SWAP3M.15Y",
+          "CHF.SWAP3M.20Y",
+          "CHF.SWAP3M.25Y",
+          "CHF.SWAP3M.30Y"
+        ]
+      }
+    }
+  }
+}

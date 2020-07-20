@@ -1,0 +1,41 @@
+{
+  "HKD.3M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "HKD",
+      "CALENDAR": "HONGKONG"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "HKD.3M",
+        "QUOTES": [
+          "HKD.DEPOSIT.3M"
+        ]
+      },
+      "FRA": {
+        "INDEX": "HKD.3M",
+        "QUOTES": [
+          "HKD.FRA.3M",
+          "HKD.FRA.6M"
+        ]
+      },
+      "SWAP": {
+        "FIXEDFREQUENCY": "ANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/ACT",
+        "INDEX": "HKD.3M",
+        "QUOTES": [
+          "HKD.SWAP.1Y",
+          "HKD.SWAP.18M",
+          "HKD.SWAP.2Y",
+          "HKD.SWAP.3Y",
+          "HKD.SWAP.4Y",
+          "HKD.SWAP.5Y",
+          "HKD.SWAP.7Y",
+          "HKD.SWAP.10Y",
+          "HKD.SWAP.12Y",
+          "HKD.SWAP.15Y"
+        ]
+      }
+    }
+  }
+}

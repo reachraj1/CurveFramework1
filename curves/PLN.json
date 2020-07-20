@@ -1,0 +1,99 @@
+{
+  "PLN.3M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "PLN",
+      "CALENDAR": "POLAND"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "PLN.3M",
+        "QUOTES": [
+          "PLN.DEPOSIT.3M"
+        ]
+      },
+      "FRA": {
+        "INDEX": "PLN.3M",
+        "QUOTES": [
+          "PLN.FRA3M.1M",
+          "PLN.FRA3M.2M",
+          "PLN.FRA3M.3M",
+          "PLN.FRA3M.4M",
+          "PLN.FRA3M.5M",
+          "PLN.FRA3M.6M",
+          "PLN.FRA3M.7M",
+          "PLN.FRA3M.8M",
+          "PLN.FRA3M.9M",
+          "PLN.FRA3M.12M",
+          "PLN.FRA3M.15M",
+          "PLN.FRA3M.18M",
+          "PLN.FRA3M.21M"
+        ]
+      },
+      "SWAP": {
+        "FIXEDFREQUENCY": "ANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/ACT",
+        "INDEX": "PLN.3M",
+        "QUOTES": [
+          "PLN.SWAP3M.3Y",
+          "PLN.SWAP3M.4Y",
+          "PLN.SWAP3M.5Y",
+          "PLN.SWAP3M.6Y",
+          "PLN.SWAP3M.7Y",
+          "PLN.SWAP3M.8Y",
+          "PLN.SWAP3M.9Y",
+          "PLN.SWAP3M.10Y",
+          "PLN.SWAP3M.12Y",
+          "PLN.SWAP3M.15Y",
+          "PLN.SWAP3M.20Y"
+        ]
+      }
+    }
+  },
+  "PLN.6M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "PLN",
+      "CALENDAR": "POLAND"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "PLN.6M",
+        "QUOTES": [
+          "PLN.DEPOSIT.6M"
+        ]
+      },
+      "FRA": {
+        "INDEX": "PLN.6M",
+        "QUOTES": [
+          "PLN.FRA.1M",
+          "PLN.FRA.2M",
+          "PLN.FRA.3M",
+          "PLN.FRA.4M",
+          "PLN.FRA.5M",
+          "PLN.FRA.6M",
+          "PLN.FRA.12M"
+        ]
+      },
+      "SWAP": {
+        "FIXEDFREQUENCY": "ANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/ACT",
+        "INDEX": "PLN.6M",
+        "QUOTES": [
+          "PLN.SWAP.2Y",
+          "PLN.SWAP.3Y",
+          "PLN.SWAP.4Y",
+          "PLN.SWAP.5Y",
+          "PLN.SWAP.6Y",
+          "PLN.SWAP.7Y",
+          "PLN.SWAP.8Y",
+          "PLN.SWAP.9Y",
+          "PLN.SWAP.10Y",
+          "PLN.SWAP.15Y",
+          "PLN.SWAP.20Y",
+          "PLN.SWAP.30Y"
+        ]
+      }
+    }
+  }
+}

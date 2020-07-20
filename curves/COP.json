@@ -1,0 +1,48 @@
+{
+  "COP.OIS": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "COP",
+      "CALENDAR": "WEEKENDSONLY"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "COP.OIS",
+        "QUOTES": [
+          "COP.ON.1D"
+        ]
+      },
+      "OISBULLET": {
+        "FIXEDFREQUENCY": "ONCE",
+        "FIXEDCONVENTION": "MODIFIEDFOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/360",
+        "INDEX": "COP.OIS",
+        "QUOTES": [
+          "COP.OIS.1M",
+          "COP.OIS.3M",
+          "COP.OIS.6M",
+          "COP.OIS.9M",
+          "COP.OIS.12M",
+          "COP.OIS.18M"
+        ]
+      },
+      "OIS": {
+        "FIXEDFREQUENCY": "QUARTERLY",
+        "FIXEDCONVENTION": "MODIFIEDFOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/360",
+        "INDEX": "COP.OIS",
+        "QUOTES": [
+          "COP.OIS.2Y",
+          "COP.OIS.3Y",
+          "COP.OIS.4Y",
+          "COP.OIS.5Y",
+          "COP.OIS.7Y",
+          "COP.OIS.8Y",
+          "COP.OIS.10Y",
+          "COP.OIS.12Y",
+          "COP.OIS.15Y",
+          "COP.OIS.20Y"
+        ]
+      }
+    }
+  }
+}

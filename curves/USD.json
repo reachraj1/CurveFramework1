@@ -1,0 +1,252 @@
+{
+  "USD.3M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "USD",
+      "CALENDAR": "UNITEDSTATES"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "USD.3M",
+        "QUOTES": [
+          "USD.DEPOSIT.3M"
+        ]
+      },
+      "FUTURE": {
+        "INDEX": "USD.3M",
+        "QUOTES": [
+          "USD.FUTURE.1",
+          "USD.FUTURE.2",
+          "USD.FUTURE.3",
+          "USD.FUTURE.4",
+          "USD.FUTURE.5",
+          "USD.FUTURE.6"
+        ]
+      },
+      "SWAP": {
+        "FIXEDFREQUENCY": "SEMIANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "30/360",
+        "INDEX": "USD.3M",
+        "QUOTES": [
+          "USD.SWAP3M.2Y",
+          "USD.SWAP3M.3Y",
+          "USD.SWAP3M.4Y",
+          "USD.SWAP3M.5Y",
+          "USD.SWAP3M.6Y",
+          "USD.SWAP3M.7Y",
+          "USD.SWAP3M.8Y",
+          "USD.SWAP3M.9Y",
+          "USD.SWAP3M.10Y",
+          "USD.SWAP3M.11Y",
+          "USD.SWAP3M.12Y",
+          "USD.SWAP3M.15Y",
+          "USD.SWAP3M.20Y",
+          "USD.SWAP3M.25Y",
+          "USD.SWAP3M.30Y",
+          "USD.SWAP3M.40Y",
+          "USD.SWAP3M.50Y"
+        ]
+      }
+    }
+  },
+  "USD.6M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "USD",
+      "CALENDAR": "UNITEDSTATES"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "USD.6M",
+        "QUOTES": [
+          "USD.DEPOSIT.6M"
+        ]
+      },
+      "BASIS3M6M": {
+        "FIXEDFREQUENCY": "SEMIANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "30/360",
+        "BASISSIGN": -1,
+        "INDEX": "USD.3M",
+        "QUOTES": [
+          [
+            "USD.SWAP3M.1Y",
+            "USD.BASIS3M6M.1Y"
+          ],
+          [
+            "USD.SWAP3M.18M",
+            "USD.BASIS3M6M.18M"
+          ],
+          [
+            "USD.SWAP3M.2Y",
+            "USD.BASIS3M6M.2Y"
+          ],
+          [
+            "USD.SWAP3M.3Y",
+            "USD.BASIS3M6M.3Y"
+          ],
+          [
+            "USD.SWAP3M.4Y",
+            "USD.BASIS3M6M.4Y"
+          ],
+          [
+            "USD.SWAP3M.5Y",
+            "USD.BASIS3M6M.5Y"
+          ],
+          [
+            "USD.SWAP3M.7Y",
+            "USD.BASIS3M6M.7Y"
+          ],
+          [
+            "USD.SWAP3M.10Y",
+            "USD.BASIS3M6M.10Y"
+          ],
+          [
+            "USD.SWAP3M.12Y",
+            "USD.BASIS3M6M.12Y"
+          ],
+          [
+            "USD.SWAP3M.15Y",
+            "USD.BASIS3M6M.15Y"
+          ],
+          [
+            "USD.SWAP3M.20Y",
+            "USD.BASIS3M6M.20Y"
+          ],
+          [
+            "USD.SWAP3M.25Y",
+            "USD.BASIS3M6M.25Y"
+          ],
+          [
+            "USD.SWAP3M.30Y",
+            "USD.BASIS3M6M.30Y"
+          ]
+        ]
+      }
+    }
+  },
+  "USD.1M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "USD",
+      "CALENDAR": "UNITEDSTATES"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "USD.1M",
+        "QUOTES": [
+          "USD.DEPOSIT.1M"
+        ]
+      },
+      "BASIS3M1M": {
+        "FIXEDFREQUENCY": "SEMIANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "30/360",
+        "BASISSIGN": 1,
+        "INDEX": "USD.3M",
+        "QUOTES": [
+          [
+            "USD.SWAP3M.3M",
+            "USD.BASIS3M1M.3M"
+          ],
+          [
+            "USD.SWAP3M.6M",
+            "USD.BASIS3M1M.6M"
+          ],
+          [
+            "USD.SWAP3M.9M",
+            "USD.BASIS3M1M.9M"
+          ],
+          [
+            "USD.SWAP3M.1Y",
+            "USD.BASIS3M1M.1Y"
+          ],
+          [
+            "USD.SWAP3M.18M",
+            "USD.BASIS3M1M.18M"
+          ],
+          [
+            "USD.SWAP3M.2Y",
+            "USD.BASIS3M1M.2Y"
+          ],
+          [
+            "USD.SWAP3M.3Y",
+            "USD.BASIS3M1M.3Y"
+          ],
+          [
+            "USD.SWAP3M.4Y",
+            "USD.BASIS3M1M.4Y"
+          ],
+          [
+            "USD.SWAP3M.5Y",
+            "USD.BASIS3M1M.5Y"
+          ],
+          [
+            "USD.SWAP3M.7Y",
+            "USD.BASIS3M1M.7Y"
+          ],
+          [
+            "USD.SWAP3M.10Y",
+            "USD.BASIS3M1M.10Y"
+          ],
+          [
+            "USD.SWAP3M.12Y",
+            "USD.BASIS3M1M.12Y"
+          ],
+          [
+            "USD.SWAP3M.15Y",
+            "USD.BASIS3M1M.15Y"
+          ],
+          [
+            "USD.SWAP3M.20Y",
+            "USD.BASIS3M1M.20Y"
+          ],
+          [
+            "USD.SWAP3M.25Y",
+            "USD.BASIS3M1M.25Y"
+          ],
+          [
+            "USD.SWAP3M.30Y",
+            "USD.BASIS3M1M.30Y"
+          ]
+        ]
+      }
+    }
+  },
+  "USD.OIS": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "USD",
+      "CALENDAR": "UNITEDSTATES"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "USD.OIS",
+        "QUOTES": [
+          "USD.ON.1D"
+        ]
+      },
+      "OIS": {
+        "FIXEDFREQUENCY": "ANNUAL",
+        "FIXEDCONVENTION": "MODIFIEDFOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/360",
+        "INDEX": "USD.OIS",
+        "QUOTES": [
+          "USD.OIS.1W",
+          "USD.OIS.2W",
+          "USD.OIS.3W",
+          "USD.OIS.1M",
+          "USD.OIS.2M",
+          "USD.OIS.3M",
+          "USD.OIS.4M",
+          "USD.OIS.5M",
+          "USD.OIS.6M",
+          "USD.OIS.9M",
+          "USD.OIS.12M",
+          "USD.OIS.18M",
+          "USD.OIS.2Y",
+          "USD.OIS.3Y",
+          "USD.OIS.4Y",
+          "USD.OIS.5Y"
+        ]
+      }
+    }
+  }
+}

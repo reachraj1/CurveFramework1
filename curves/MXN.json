@@ -1,0 +1,37 @@
+{
+  "MXN.28D": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "MXN",
+      "CALENDAR": "MEXICO"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "MXN.28D",
+        "QUOTES": [
+          "MXN.DEPOSIT.28D"
+        ]
+      },
+      "SWAP": {
+        "FIXEDFREQUENCY": "EVERYFOURWEEKS",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/360",
+        "INDEX": "MXN.28D",
+        "QUOTES": [
+          "MXN.SWAP.3M",
+          "MXN.SWAP.6M",
+          "MXN.SWAP.9M",
+          "MXN.SWAP.1Y",
+          "MXN.SWAP.2Y",
+          "MXN.SWAP.3Y",
+          "MXN.SWAP.4Y",
+          "MXN.SWAP.5Y",
+          "MXN.SWAP.7Y",
+          "MXN.SWAP.10Y",
+          "MXN.SWAP.15Y",
+          "MXN.SWAP.20Y",
+          "MXN.SWAP.30Y"
+        ]
+      }
+    }
+  }
+}

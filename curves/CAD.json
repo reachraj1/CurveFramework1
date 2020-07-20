@@ -1,0 +1,177 @@
+{
+  "CAD.OIS": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "CAD",
+      "CALENDAR": "CANADA"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "CAD.OIS",
+        "QUOTES": [
+          "CAD.ON.1D"
+        ]
+      },
+      "OISANNUAL": {
+        "FIXEDFREQUENCY": "ANNUAL",
+        "FIXEDCONVENTION": "MODIFIEDFOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/365",
+        "INDEX": "CAD.OIS",
+        "QUOTES": [
+          "CAD.OIS.1W",
+          "CAD.OIS.2W",
+          "CAD.OIS.1M",
+          "CAD.OIS.2M",
+          "CAD.OIS.3M",
+          "CAD.OIS.4M",
+          "CAD.OIS.5M",
+          "CAD.OIS.6M",
+          "CAD.OIS.9M",
+          "CAD.OIS.1Y"
+        ]
+      },
+      "OIS": {
+        "FIXEDFREQUENCY": "SEMIANNUAL",
+        "FIXEDCONVENTION": "MODIFIEDFOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/365",
+        "INDEX": "CAD.OIS",
+        "QUOTES": [
+          "CAD.OIS.2Y",
+          "CAD.OIS.3Y",
+          "CAD.OIS.4Y",
+          "CAD.OIS.5Y"
+        ]
+      }
+    }
+  },
+  "CAD.3M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "CAD",
+      "CALENDAR": "CANADA"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "DAYCOUNTER": "ACT/365",
+        "CONVENTION": "FOLLOWING",
+        "FIXINGDAYS": 2,
+        "QUOTES": [
+          "CAD.DEPOSIT.1D",
+          "CAD.DEPOSIT.1M",
+          "CAD.DEPOSIT.2M",
+          "CAD.DEPOSIT.3M"
+        ]
+      },
+      "FUTURE": {
+        "INDEX": "CAD.3M",
+        "QUOTES": [
+          "CAD.FUTURE.1",
+          "CAD.FUTURE.2",
+          "CAD.FUTURE.3",
+          "CAD.FUTURE.4",
+          "CAD.FUTURE.5",
+          "CAD.FUTURE.6"
+        ]
+      },
+      "SWAP": {
+        "FIXEDFREQUENCY": "SEMIANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/365",
+        "INDEX": "CAD.3M",
+        "QUOTES": [
+          "CAD.SWAP.2Y",
+          "CAD.SWAP.3Y",
+          "CAD.SWAP.4Y",
+          "CAD.SWAP.5Y",
+          "CAD.SWAP.6Y",
+          "CAD.SWAP.7Y",
+          "CAD.SWAP.8Y",
+          "CAD.SWAP.9Y",
+          "CAD.SWAP.10Y",
+          "CAD.SWAP.12Y",
+          "CAD.SWAP.15Y",
+          "CAD.SWAP.20Y",
+          "CAD.SWAP.25Y",
+          "CAD.SWAP.30Y"
+        ]
+      }
+    }
+  },
+  "CAD.1M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "CAD",
+      "CALENDAR": "CANADA"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "DAYCOUNTER": "ACT/365",
+        "CONVENTION": "FOLLOWING",
+        "FIXINGDAYS": 2,
+        "QUOTES": [
+          "CAD.DEPOSIT.1D",
+          "CAD.DEPOSIT.1M"
+        ]
+      },
+      "SWAP1M": {
+        "FIXEDFREQUENCY": "SEMIANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/365",
+        "INDEX": "CAD.1M",
+        "QUOTES": [
+          "CAD.SWAP1M.2M",
+          "CAD.SWAP1M.3M",
+          "CAD.SWAP1M.6M",
+          "CAD.SWAP1M.9M",
+          "CAD.SWAP1M.12M"
+        ]
+      },
+      "BASIS1M3M": {
+        "FIXEDFREQUENCY": "SEMIANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/365",
+        "BASISSIGN": 1,
+        "INDEX": "CAD.3M",
+        "QUOTES": [
+          [
+            "CAD.SWAP.2Y",
+            "CAD.BASIS1M3M.2Y"
+          ],
+          [
+            "CAD.SWAP.3Y",
+            "CAD.BASIS1M3M.3Y"
+          ],
+          [
+            "CAD.SWAP.4Y",
+            "CAD.BASIS1M3M.4Y"
+          ],
+          [
+            "CAD.SWAP.5Y",
+            "CAD.BASIS1M3M.5Y"
+          ],
+          [
+            "CAD.SWAP.7Y",
+            "CAD.BASIS1M3M.7Y"
+          ],
+          [
+            "CAD.SWAP.10Y",
+            "CAD.BASIS1M3M.10Y"
+          ],
+          [
+            "CAD.SWAP.12Y",
+            "CAD.BASIS1M3M.12Y"
+          ],
+          [
+            "CAD.SWAP.15Y",
+            "CAD.BASIS1M3M.15Y"
+          ],
+          [
+            "CAD.SWAP.20Y",
+            "CAD.BASIS1M3M.20Y"
+          ],
+          [
+            "CAD.SWAP.30Y",
+            "CAD.BASIS1M3M.30Y"
+          ]
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "HUF.6M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "HUF",
+      "CALENDAR": "HUNGARY"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "HUF.6M",
+        "QUOTES": [
+          "HUF.DEPOSIT.6M"
+        ]
+      },
+      "FRA": {
+        "INDEX": "HUF.6M",
+        "QUOTES": [
+          "HUF.FRA.1M",
+          "HUF.FRA.2M",
+          "HUF.FRA.3M",
+          "HUF.FRA.4M",
+          "HUF.FRA.5M",
+          "HUF.FRA.6M"
+        ]
+      },
+      "SWAP": {
+        "FIXEDFREQUENCY": "ANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/365",
+        "INDEX": "HUF.6M",
+        "QUOTES": [
+          "HUF.SWAP.2Y",
+          "HUF.SWAP.3Y",
+          "HUF.SWAP.4Y",
+          "HUF.SWAP.5Y",
+          "HUF.SWAP.6Y",
+          "HUF.SWAP.7Y",
+          "HUF.SWAP.8Y",
+          "HUF.SWAP.9Y",
+          "HUF.SWAP.10Y",
+          "HUF.SWAP.12Y",
+          "HUF.SWAP.15Y",
+          "HUF.SWAP.20Y"
+        ]
+      }
+    }
+  },
+  "HUF.3M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "HUF",
+      "CALENDAR": "HUNGARY"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "HUF.3M",
+        "QUOTES": [
+          "HUF.DEPOSIT.3M"
+        ]
+      },
+      "FRA": {
+        "INDEX": "HUF.3M",
+        "QUOTES": [
+          "HUF.FRA3M.1M",
+          "HUF.FRA3M.2M",
+          "HUF.FRA3M.3M",
+          "HUF.FRA3M.4M",
+          "HUF.FRA3M.5M",
+          "HUF.FRA3M.6M",
+          "HUF.FRA3M.9M",
+          "HUF.FRA3M.12M"
+        ]
+      },
+      "BASIS6M3M": {
+        "FIXEDFREQUENCY": "ANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/365",
+        "BASISSIGN": -1,
+        "INDEX": "HUF.6M",
+        "QUOTES": [
+          [
+            "HUF.SWAP.2Y",
+            "HUF.BASIS6M3M.2Y"
+          ],
+          [
+            "HUF.SWAP.3Y",
+            "HUF.BASIS6M3M.3Y"
+          ],
+          [
+            "HUF.SWAP.4Y",
+            "HUF.BASIS6M3M.4Y"
+          ],
+          [
+            "HUF.SWAP.5Y",
+            "HUF.BASIS6M3M.5Y"
+          ],
+          [
+            "HUF.SWAP.6Y",
+            "HUF.BASIS6M3M.6Y"
+          ],
+          [
+            "HUF.SWAP.7Y",
+            "HUF.BASIS6M3M.7Y"
+          ],
+          [
+            "HUF.SWAP.8Y",
+            "HUF.BASIS6M3M.8Y"
+          ],
+          [
+            "HUF.SWAP.9Y",
+            "HUF.BASIS6M3M.9Y"
+          ],
+          [
+            "HUF.SWAP.10Y",
+            "HUF.BASIS6M3M.10Y"
+          ],
+          [
+            "HUF.SWAP.12Y",
+            "HUF.BASIS6M3M.10Y"
+          ],
+          [
+            "HUF.SWAP.15Y",
+            "HUF.BASIS6M3M.10Y"
+          ],
+          [
+            "HUF.SWAP.20Y",
+            "HUF.BASIS6M3M.10Y"
+          ]
+        ]
+      }
+    }
+  }
+}

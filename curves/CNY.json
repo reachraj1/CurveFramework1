@@ -1,0 +1,37 @@
+{
+  "CNY.3M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "CNY",
+      "CALENDAR": "CHINA"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "DAYCOUNTER": "ACT/365",
+        "CONVENTION": "FOLLOWING",
+        "FIXINGDAYS": 0,
+        "QUOTES": [
+          "CNY.DEPOSIT.1D",
+          "CNY.DEPOSIT.7D"
+        ]
+      },
+      "OIS": {
+        "FIXEDFREQUENCY": "QUARTERLY",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/365",
+        "INDEX": "CNY.OIS",
+        "QUOTES": [
+          "CNY.OIS.3M",
+          "CNY.OIS.6M",
+          "CNY.OIS.9M",
+          "CNY.OIS.1Y",
+          "CNY.OIS.2Y",
+          "CNY.OIS.3Y",
+          "CNY.OIS.4Y",
+          "CNY.OIS.5Y",
+          "CNY.OIS.7Y",
+          "CNY.OIS.10Y"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "DKK.OIS": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "DKK",
+      "CALENDAR": "DENMARK"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "DKK.OIS",
+        "QUOTES": [
+          "DKK.ON.1D"
+        ]
+      },
+      "OIS": {
+        "FIXEDFREQUENCY": "ANNUAL",
+        "FIXEDCONVENTION": "MODIFIEDFOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/360",
+        "INDEX": "DKK.OIS",
+        "QUOTES": [
+          "DKK.OIS.1M",
+          "DKK.OIS.2M",
+          "DKK.OIS.3M",
+          "DKK.OIS.6M",
+          "DKK.OIS.9M",
+          "DKK.OIS.1Y",
+          "DKK.OIS.18M",
+          "DKK.OIS.2Y",
+          "DKK.OIS.3Y",
+          "DKK.OIS.4Y",
+          "DKK.OIS.5Y",
+          "DKK.OIS.6Y",
+          "DKK.OIS.7Y",
+          "DKK.OIS.8Y",
+          "DKK.OIS.9Y",
+          "DKK.OIS.10Y",
+          "DKK.OIS.12Y",
+          "DKK.OIS.15Y",
+          "DKK.OIS.20Y",
+          "DKK.OIS.25Y",
+          "DKK.OIS.30Y"
+        ]
+      }
+    }
+  },
+  "DKK.6M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "DKK",
+      "CALENDAR": "DENMARK"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "DKK.6M",
+        "QUOTES": [
+          "DKK.DEPOSIT.6M"
+        ]
+      },
+      "IMMFRA": {
+        "INDEX": "DKK.6M",
+        "QUOTES": [
+          "DKK.FRA.2"
+        ]
+      },
+      "SWAP": {
+        "FIXEDFREQUENCY": "ANNUAL",
+        "FIXEDCONVENTION": "MODIFIEDFOLLOWING",
+        "FIXEDDAYCOUNTER": "30/360",
+        "INDEX": "DKK.6M",
+        "QUOTES": [
+          "DKK.SWAP.2Y",
+          "DKK.SWAP.3Y",
+          "DKK.SWAP.4Y",
+          "DKK.SWAP.5Y",
+          "DKK.SWAP.6Y",
+          "DKK.SWAP.7Y",
+          "DKK.SWAP.8Y",
+          "DKK.SWAP.9Y",
+          "DKK.SWAP.10Y",
+          "DKK.SWAP.12Y",
+          "DKK.SWAP.15Y",
+          "DKK.SWAP.20Y",
+          "DKK.SWAP.25Y",
+          "DKK.SWAP.30Y"
+        ]
+      }
+    }
+  },
+  "DKK.3M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "DKK",
+      "CALENDAR": "DENMARK"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "INDEX": "DKK.3M",
+        "QUOTES": [
+          "DKK.DEPOSIT.3M"
+        ]
+      },
+      "IMMFRA": {
+        "INDEX": "DKK.3M",
+        "QUOTES": [
+          "DKK.FRA3M.1",
+          "DKK.FRA3M.2",
+          "DKK.FRA3M.3",
+          "DKK.FRA3M.4",
+          "DKK.FRA3M.5"
+        ]
+      },
+      "BASIS6M3M": {
+        "FIXEDFREQUENCY": "ANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "30/360",
+        "BASISSIGN": 1,
+        "INDEX": "DKK.6M",
+        "QUOTES": [
+          [
+            "DKK.SWAP.2Y",
+            "DKK.BASIS6M3M.2Y"
+          ],
+          [
+            "DKK.SWAP.3Y",
+            "DKK.BASIS6M3M.3Y"
+          ],
+          [
+            "DKK.SWAP.4Y",
+            "DKK.BASIS6M3M.4Y"
+          ],
+          [
+            "DKK.SWAP.5Y",
+            "DKK.BASIS6M3M.5Y"
+          ],
+          [
+            "DKK.SWAP.6Y",
+            "DKK.BASIS6M3M.6Y"
+          ],
+          [
+            "DKK.SWAP.7Y",
+            "DKK.BASIS6M3M.7Y"
+          ],
+          [
+            "DKK.SWAP.8Y",
+            "DKK.BASIS6M3M.8Y"
+          ],
+          [
+            "DKK.SWAP.9Y",
+            "DKK.BASIS6M3M.9Y"
+          ],
+          [
+            "DKK.SWAP.10Y",
+            "DKK.BASIS6M3M.10Y"
+          ],
+          [
+            "DKK.SWAP.12Y",
+            "DKK.BASIS6M3M.10Y"
+          ],
+          [
+            "DKK.SWAP.15Y",
+            "DKK.BASIS6M3M.10Y"
+          ],
+          [
+            "DKK.SWAP.20Y",
+            "DKK.BASIS6M3M.10Y"
+          ],
+          [
+            "DKK.SWAP.25Y",
+            "DKK.BASIS6M3M.10Y"
+          ],
+          [
+            "DKK.SWAP.30Y",
+            "DKK.BASIS6M3M.10Y"
+          ]
+        ]
+      }
+    }
+  }
+}

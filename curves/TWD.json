@@ -1,0 +1,39 @@
+{
+  "TWD.3M": {
+    "CONFIGURATIONS": {
+      "CURRENCY": "TWD",
+      "CALENDAR": "TAIWAN"
+    },
+    "INSTRUMENTS": {
+      "DEPOSIT": {
+        "DAYCOUNTER": "ACT/365.FIXED",
+        "CONVENTION": "FOLLOWING",
+        "FIXINGDAYS": 2,
+        "QUOTES": [
+          "TWD.DEPOSIT.1W",
+          "TWD.DEPOSIT.2W",
+          "TWD.DEPOSIT.1M",
+          "TWD.DEPOSIT.2M",
+          "TWD.DEPOSIT.3M"
+        ]
+      },
+      "SWAP": {
+        "FIXEDFREQUENCY": "ANNUAL",
+        "FIXEDCONVENTION": "FOLLOWING",
+        "FIXEDDAYCOUNTER": "ACT/365.FIXED",
+        "INDEX": "TWD.3M",
+        "QUOTES": [
+          "TWD.SWAP.1Y",
+          "TWD.SWAP.2Y",
+          "TWD.SWAP.3Y",
+          "TWD.SWAP.4Y",
+          "TWD.SWAP.5Y",
+          "TWD.SWAP.7Y",
+          "TWD.SWAP.10Y",
+          "TWD.SWAP.12Y",
+          "TWD.SWAP.15Y"
+        ]
+      }
+    }
+  }
+}
