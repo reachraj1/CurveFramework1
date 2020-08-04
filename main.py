@@ -15,7 +15,7 @@ def buildCurves(date):
 
 curves = buildCurves('16-09-2019')
 
-'''
+"""
 for c in curves:
     print(c, curves[c].discount(1))
-'''
+"""

@@ -8,7 +8,7 @@ def saveData(date):
     bbgDate = ''.join(date.split('-')[::-1])
 
     params = { "nonTradingDayFillOption": "NON_TRADING_WEEKDAYS" }
-    data = bbg.bdh(tickers.ticker, 'PX_LAST', bbgDate, other_request_parameters=params)
+    data = bbg.bdh(tickers.ticker, 'PX_LAST', bbgDate, bbgDate, other_request_parameters=params)
 
     output = pd.DataFrame(data.iloc[0])
     output = output.join(tickers.set_index('ticker'))

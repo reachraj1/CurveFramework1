@@ -344,7 +344,16 @@ class CurveBuilder():
                                 partial_spread) / 100
                         spread = sign * sprd
                     else:
-                        spread = sign * self.marketData.getQuote(spread) / 100
+                        if 'USD.BASIS3MOIS' in spread:
+                            def sprd(swap, basis):
+                                return 100*(100*(-swap+(((1.0 + ((1.0 + ((((1.0 + swap*(360.0/365.0)/2.0)**(2.0/4.0) - 1.0) * 4.0)-basis/100)/4.0)**4.0 - 1.0)/360.0)**90.0 - 1.0) * 4.0)))
+                            spread = self.marketData.getQuote(spread)
+                            spread = sprd(value, spread) / 10000
+                        else:
+                            spread = self.marketData.getQuote(spread) / 100
+
+                        spread *= sign
+
                     spreadHandle = ql.QuoteHandle(ql.SimpleQuote(spread))
                     self.helpers.append(
                         ql.SwapRateHelper(
@@ -362,5 +371,6 @@ class CurveBuilder():
                     value = self.marketData.getQuote(quote)
                     quoteHandle = ql.QuoteHandle(ql.SimpleQuote(value))
                     self.helpers.append(
-                        ql.OISRateHelper(2, period, quoteHandle, index)
+                        ql.OISRateHelper(2, period, quoteHandle,
+                                         index, paymentFrequency=fixedFrequency)
                     )

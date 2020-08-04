@@ -9,10 +9,10 @@ swaps = pd.read_csv('swaps.csv')
 
 for key in index_tickers:
     filename = key.replace('.', '') + '.csv'
-    fixings = pd.read_csv(f'fixings/{filename}', header=None)
+    fixings = pd.read_csv(f'fixings/{filename}', header=None).dropna()
     fixings.columns = ['date', 'value']
     fixingDates = [ql.Date(dt,  '%Y-%m-%d') for dt in fixings.date]
-    fixingValues = [value / 100 for value in fixings.value]
+    fixingValues = [float(value) / 100 for value in fixings.value]
     floatingIndex = objects.get(key)
     # floatingIndex.addfixings(fixingDates, fixingValues) # Had to use a loop because BBG calendar and QuantLib calendars don't seem to mactch
     for day, fixing in zip(fixingDates, fixingValues):
