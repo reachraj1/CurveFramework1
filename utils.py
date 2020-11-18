@@ -40,7 +40,7 @@ objects = {
     'ACT/360': ql.Actual360(),
     'ACT/ACT': ql.ActualActual(),
     'ACT/365.FIXED': ql.Actual365Fixed(),
-    'ACT/365': ql.Actual365NoLeap(),
+    'ACT/365': ql.Actual365Fixed(ql.Actual365Fixed.NoLeap),
 
     # Dates
     'FOLLOWING': ql.Following,
@@ -59,7 +59,7 @@ objects = {
     'EUR.OIS': ql.Eonia(),
     'GBP.OIS': ql.Sonia(),
     'JPY.OIS': ql.OvernightIndex('MUTKCALM', 0, ql.JPYCurrency(), ql.Japan(), ql.Actual360()),
-    'NZD.OIS': ql.OvernightIndex('NZOCRS', 0, ql.NZDCurrency(), ql.NewZealand(), ql.Actual365NoLeap()),
+    'NZD.OIS': ql.OvernightIndex('NZOCRS', 0, ql.NZDCurrency(), ql.NewZealand(), ql.Actual365Fixed(ql.Actual365Fixed.NoLeap)),
     'SEK.OIS': ql.OvernightIndex('STIB1D', 0, ql.SEKCurrency(), ql.Sweden(), ql.Actual360()),
     'USD.OIS': ql.FedFunds(),
 
@@ -89,12 +89,12 @@ objects = {
     'MXN.28D': ql.IborIndex('MXIBTIIE', ql.Period(28, ql.Days), 2, ql.MXNCurrency(), ql.Mexico(), ql.Following, True, ql.Actual360()),
     'NOK.3M': ql.IborIndex('NIBOR3M', ql.Period('3M'), 2, ql.NOKCurrency(), ql.Norway(), ql.Following, True, ql.Actual360()),
     'NOK.6M': ql.IborIndex('NIBOR6M', ql.Period('6M'), 2, ql.NOKCurrency(), ql.Norway(), ql.Following, True, ql.Actual360()),
-    'NZD.3M': ql.IborIndex('NDBB3M', ql.Period('3M'), 2, ql.NZDCurrency(), ql.NewZealand(), ql.ModifiedFollowing, True, ql.Actual365NoLeap()),
+    'NZD.3M': ql.IborIndex('NDBB3M', ql.Period('3M'), 2, ql.NZDCurrency(), ql.NewZealand(), ql.ModifiedFollowing, True, ql.Actual365Fixed(ql.Actual365Fixed.NoLeap)),
     'PLN.3M': ql.IborIndex('WIBOR3M', ql.Period('3M'), 2, ql.PLNCurrency(), ql.Poland(), ql.ModifiedFollowing, True, ql.Actual365Fixed()),
     'PLN.6M': ql.IborIndex('WIBOR6M', ql.Period('6M'), 2, ql.PLNCurrency(), ql.Poland(), ql.ModifiedFollowing, True, ql.Actual365Fixed()),
     'SEK.3M': ql.SEKLibor(ql.Period('3M')),
-    'SGD.3M': ql.IborIndex('SORF3M', ql.Period('3M'), 2, ql.SGDCurrency(), ql.Singapore(), ql.ModifiedFollowing, True, ql.Actual365NoLeap()),
-    'SGD.6M': ql.IborIndex('SORF6M', ql.Period('6M'), 2, ql.SGDCurrency(), ql.Singapore(), ql.ModifiedFollowing, True, ql.Actual365NoLeap()),
+    'SGD.3M': ql.IborIndex('SORF3M', ql.Period('3M'), 2, ql.SGDCurrency(), ql.Singapore(), ql.ModifiedFollowing, True, ql.Actual365Fixed(ql.Actual365Fixed.NoLeap)),
+    'SGD.6M': ql.IborIndex('SORF6M', ql.Period('6M'), 2, ql.SGDCurrency(), ql.Singapore(), ql.ModifiedFollowing, True, ql.Actual365Fixed(ql.Actual365Fixed.NoLeap)),
     'THB.6M': ql.THBFIX(ql.Period('6M')),
     'TWD.3M': ql.IborIndex('Taibor3M', ql.Period('3m'), 2, ql.TWDCurrency(), ql.Taiwan(), ql.ModifiedFollowing, True, ql.Actual365Fixed()),
     'USD.1M': ql.USDLibor(ql.Period('1M')),
@@ -225,9 +225,14 @@ class MarketData():
 
     def getQuote(self, quote, shift=0):
         try:
-            return (self.data.loc[quote].item() + shift) / 100
+            val = (self.data.loc[quote].item() + shift) / 100
         except:
             print(quote)
+        else:
+            if val:
+                return val
+            else:
+                print(f"{quote} has no value!")
 
 
 class CurveBuilder():
@@ -243,8 +248,11 @@ class CurveBuilder():
         self.curve = ql.PiecewiseLogCubicDiscount(
             ql.Settings.instance().evaluationDate, self.helpers, curveDayCounter
         )
-        '''
         self.curve = ql.PiecewiseLogLinearDiscount(
+            ql.Settings.instance().evaluationDate, self.helpers, curveDayCounter
+        )
+        '''
+        self.curve = ql.PiecewiseSplineCubicDiscount(
             ql.Settings.instance().evaluationDate, self.helpers, curveDayCounter
         )
 
